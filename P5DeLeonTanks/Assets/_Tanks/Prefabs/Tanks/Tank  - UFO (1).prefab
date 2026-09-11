@@ -407,7 +407,7 @@ Transform:
   m_GameObject: {fileID: 2432372232911776920}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.065, y: 2.334, z: 0.812}
+  m_LocalPosition: {x: 0.065, y: 2.334, z: 0.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -502,8 +502,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.5853746, y: 2.159119, z: 2.43536}
-  m_Center: {x: -0.030474305, y: 1.5922778, z: -0.08767724}
+  m_Size: {x: 2.5853746, y: 1.27631, z: 2.43536}
+  m_Center: {x: -0.030474305, y: 1.3771639, z: -0.08767724}
 --- !u!82 &6412198727680921855
 AudioSource:
   m_ObjectHideFlags: 0
@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tanks.Complete.TankMovement
   m_PlayerNumber: 2
-  m_Speed: 19
+  m_Speed: 25
   m_TurnSpeed: 120
   m_IsDirectControl: 0
   m_MovementAudio: {fileID: 6412198727680921855}
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_MaxLaunchForce: 20
   m_MaxChargeTime: 0.75
   m_ShotCooldown: 1.25
-  m_MaxDamage: 80
+  m_MaxDamage: 90
   m_ExplosionForce: 50
   m_ExplosionRadius: 5
   m_InputUser: {fileID: 0}
@@ -758,7 +758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030896d0325fa3e4d8d7d4cfe2351cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tanks.Complete.TankHealth
-  m_StartingHealth: 300
+  m_StartingHealth: 250
   m_Slider: {fileID: 1220081592481182759}
   m_FillImage: {fileID: 7693899653944538411}
   m_FullHealthColor: {r: 0, g: 1, b: 0, a: 1}

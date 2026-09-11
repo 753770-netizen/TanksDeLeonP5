@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1117927942058271252, guid: 1160b13499b22fa4a977844d04259d14, type: 3}
+      propertyPath: m_MaxDamage
+      value: 79
+      objectReference: {fileID: 0}
     - target: {fileID: 1860999015689026263, guid: 1160b13499b22fa4a977844d04259d14, type: 3}
       propertyPath: m_Name
       value: Tank - Swag Variant
@@ -19,6 +23,10 @@ PrefabInstance:
     - target: {fileID: 1968722795866287373, guid: 1160b13499b22fa4a977844d04259d14, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3379492996461933332, guid: 1160b13499b22fa4a977844d04259d14, type: 3}
+      propertyPath: m_StartingHealth
+      value: 250
       objectReference: {fileID: 0}
     - target: {fileID: 5561716708325073384, guid: 1160b13499b22fa4a977844d04259d14, type: 3}
       propertyPath: m_AnchorMax.x
@@ -67,6 +75,10 @@ PrefabInstance:
     - target: {fileID: 6928150311933096444, guid: 1160b13499b22fa4a977844d04259d14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180243539208623021, guid: 1160b13499b22fa4a977844d04259d14, type: 3}
+      propertyPath: m_Speed
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7180243539208623021, guid: 1160b13499b22fa4a977844d04259d14, type: 3}
       propertyPath: m_IsComputerControlled
